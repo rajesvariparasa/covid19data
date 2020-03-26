@@ -71,7 +71,7 @@ simulate <- function(# control.icm params
   quar.rate = 1/30, 
   #	Rate per day at which symptomatic (or tested positive), infected I compartment people or self-isolated Q compartment people enter the state of requiring hospital care -- that is, become serious cases.
   #Take date of first case in Punjab and where you are now, to get this rate. 
-  hosp.rate = ?? #date of first case in Punjab and get the rate for this. 
+  hosp.rate = ??, #date of first case in Punjab and get the rate for this. 
   #Rate per day at which people needing hospitalisation recover.
   disch.rate = 1/15,
   # Rate per day at which people who are infected but asymptomatic (E compartment) progress to becoming symptomatic (or test-positive), the I compartment. 
