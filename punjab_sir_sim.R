@@ -1,3 +1,6 @@
+#a value has been taken as the default from this blog post: https://timchurches.github.io/blog/posts/2020-03-18-modelling-the-effects-of-public-health-interventions-on-covid-19-transmission-part-2/ 
+#unless stated why it has been changed in the comments. 
+
 simulate <- function(# control.icm params
   #type of modeL: Susceptible, Exposed, Infected, Quarintined, Hospitalised, Recovered, Fatalaties
   type = "SEIQHRF",
