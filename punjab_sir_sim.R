@@ -71,7 +71,7 @@ simulate <- function(# control.icm params
   quar.rate = 1/30, 
   #	Rate per day at which symptomatic (or tested positive), infected I compartment people or self-isolated Q compartment people enter the state of requiring hospital care -- that is, become serious cases.
   #Take date of first case in Punjab and where you are now, to get this rate. 
-  hosp.rate = ??, #date of first case in Punjab and get the rate for this. 
+  hosp.rate = 31/17, #date of first case in Punjab and get the rate for this. 
   #Rate per day at which people needing hospitalisation recover.
   disch.rate = 1/15,
   # Rate per day at which people who are infected but asymptomatic (E compartment) progress to becoming symptomatic (or test-positive), the I compartment. 
@@ -90,7 +90,7 @@ simulate <- function(# control.icm params
   #Baseline mortality rate per day for people needing hospitalisation (deaths due to the virus). 
   fat.rate.base = 1/50,
   #Number of available hospital beds for the modelled population. 
-  hosp.cap = , #fill out exact number of beds
+  hosp.cap = 13527, #fill out exact number of beds
   #Mortality rate per day for people needing hospitalisation but who can't get into hospital due to the hospitals being full.
   #The default rate is twice that for those who do get into hospital.
   # Increasing hospital capacity would reduce this. 
